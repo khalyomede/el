@@ -1,6 +1,6 @@
 # html
 
-A v library to generate HTML with functions call.
+HTML generation using functions for V.
 
 ## Summary
 
