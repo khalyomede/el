@@ -7,6 +7,7 @@ A v library to generate HTML with functions call.
 - [About](#about)
 - [Examples](#examples)
 - [Available functions](#available-functions)
+- [Known issues](#known-issues)
 - [Run tests](#run-tests)
 
 ## About
@@ -108,7 +109,11 @@ Which will return this HTML string
 
 Head to src/el and find the HTML tag you are searching for. You can browse its equivalent test in src/test for an example of usage.
 
-### Run tests
+## Known issues
+
+- Since `select` is a reserved keyword in V, you will need to use `el.@select({ "class": "form-control" }, [])` instead (prepending with `@`).
+
+## Run tests
 
 To run test, run this command:
 
