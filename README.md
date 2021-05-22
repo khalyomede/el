@@ -5,6 +5,7 @@ A v library to generate HTML with functions call.
 ## Summary
 
 - [About](#about)
+- [Features](#features)
 - [Examples](#examples)
 - [Available functions](#available-functions)
 - [Known issues](#known-issues)
@@ -13,6 +14,11 @@ A v library to generate HTML with functions call.
 ## About
 
 I created this library because across all my v web projects, I used to create the same functions to return HTML. I liked the idea behind [Elm UI](https://package.elm-lang.org/packages/mdgriffith/elm-ui/latest/) to generate the view through function calls. I believe this is a handy way to perform complex or business dependent code generation. It also natively leverages the compiler so you get full type checking out of the box.
+
+## Features
+
+- Contains functions to generate HTML5 tags string
+- Can use a function to generate arbitrary (or non existing) HTML tags
 
 ## Examples
 
