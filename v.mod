@@ -1,5 +1,5 @@
 Module {
-	name: 'khalyomede.el'
+	name: 'el'
 	author: 'khalyomede'
 	version: '0.1.0'
 	repo_url: 'https://github.com/khalyomede/el'
