@@ -31,7 +31,7 @@ I created this library because across all my v web projects, I used to create th
 In this example, we will generate a basic HTML layout to demonstrate how to import and use the HTML functions.
 
 ```v
-import khalyomede.el.src.el
+import khalyomede.el
 
 fn main() {
   content := el.page([
@@ -67,7 +67,7 @@ Which will return this string
 In this example, we will generate HTML from non existing or arbitrary HTML tags.
 
 ```v
-import khalyomede.el.src.el
+import khalyomede.el
 
 fn main() {
   content := el.anon({
@@ -95,7 +95,7 @@ Which will return this HTML string
 In this example, we will generate self closing (or "orphan") HTML tags.
 
 ```v
-import khalyomede.el.src.el
+import khalyomede.el
 
 fn main() {
   content := el.anon({
@@ -124,5 +124,5 @@ Head to src/el and find the HTML tag you are searching for. You can browse its e
 To run test, run this command:
 
 ```bash
-v test src/test
+v test .
 ```
