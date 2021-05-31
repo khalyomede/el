@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - The import path is now `import khalyomede.el`.
 
-## [0.2.0] - 2021-05-22
+## [0.2.0] - 2021-05-31
 
 ### Added
 
