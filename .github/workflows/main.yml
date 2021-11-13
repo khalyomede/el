@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Test
-        run: docker-compose run --rm v run test .
+        run: docker-compose run --rm v test .
