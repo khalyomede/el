@@ -4,9 +4,9 @@ module el
 https://developer.mozilla.org/fr/docs/Web/HTML/Element/picture
 */
 pub fn picture(attributes map[string]string, children []string) string {
-	return el.anon({
+	return el.anon(
 		name: "picture",
 		attributes: attributes,
 		children: children,
-	})
+	)
 }

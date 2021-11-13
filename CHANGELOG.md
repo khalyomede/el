@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix "cannot initialize a struct with a map" errors when using one of the functions.
+
 ## [0.3.0] - 2021-05-31
 
 ### Breaking

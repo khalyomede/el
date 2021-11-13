@@ -11,5 +11,5 @@ fn test_th_with_children_returns_correct_html() {
 }
 
 fn test_th_with_attributes_returns_correct_html() {
-	assert el.th({ "colspan": "2" }, []) == '<th colspan="2"></th>'
+	assert el.th({"colspan": "2"}, []) == '<th colspan="2"></th>'
 }

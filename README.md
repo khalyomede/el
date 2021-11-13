@@ -77,7 +77,7 @@ In this example, we will generate HTML from non existing or arbitrary HTML tags.
 import khalyomede.el
 
 fn main() {
-  content := el.anon({
+  content := el.anon(
     name: "x-navbar",
     attributes: {
       "data-initialized": "false",
@@ -85,7 +85,7 @@ fn main() {
     children: [
       el.h1({ "class": "text-xl" }, ["Brand"])
     ],
-  })
+  )
 }
 ```
 
@@ -105,10 +105,10 @@ In this example, we will generate self closing (or "orphan") HTML tags.
 import khalyomede.el
 
 fn main() {
-  content := el.anon({
+  content := el.anon(
     name: "x-textinput",
     self_closing: true,
-  })
+  )
 }
 ```
 
