@@ -6,6 +6,7 @@ HTML generation using functions for V.
 
 - [About](#about)
 - [Features](#features)
+- [Installation](#installation)
 - [Examples](#examples)
 - [Available functions](#available-functions)
 - [Known issues](#known-issues)
@@ -19,6 +20,12 @@ I created this library because across all my v web projects, I used to create th
 
 - Contains functions to generate HTML5 tags string
 - Can use a function to generate arbitrary (or non existing) HTML tags
+
+## Installation
+
+```bash
+v install khalyomede.el
+```
 
 ## Examples
 
