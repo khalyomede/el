@@ -131,5 +131,5 @@ Head to src/el and find the HTML tag you are searching for. You can browse its e
 To run test, run this command:
 
 ```bash
-v test src/test
+v test .
 ```
