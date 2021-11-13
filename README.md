@@ -43,10 +43,10 @@ import khalyomede.el
 fn main() {
   content := el.page([
     el.html({ "lang": "fr" }, [
-      el.head({ "": "" }, [
-        el.title({ "": "" }, ["My website"])
+      el.head({}, [
+        el.title({}, ["My website"])
       ]),
-      el.body({ "": "" }, [
+      el.body({}, [
         el.h1({ "class": "text-xl" }, ["Home page"])
       ])
     ])

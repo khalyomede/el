@@ -3,7 +3,7 @@ module test
 import el
 
 fn test_base_returns_correct_html() {
-	assert el.base({ "": "" }) == "<base />"
+	assert el.base({}) == "<base />"
 }
 
 fn test_base_with_attributes_returns_correct_html() {

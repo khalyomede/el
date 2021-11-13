@@ -3,11 +3,11 @@ module test
 import el
 
 fn test_header_returns_correct_html() {
-	assert el.header({ "": "" }, []) == "<header></header>"
+	assert el.header({}, []) == "<header></header>"
 }
 
 fn test_header_returns_correct_html_with_children() {
-	assert el.header({ "": "" }, ["foo"]) == "<header>foo</header>"
+	assert el.header({}, ["foo"]) == "<header>foo</header>"
 }
 
 fn test_header_returns_correct_html_with_attributes() {

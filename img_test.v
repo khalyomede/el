@@ -3,7 +3,7 @@ module test
 import el
 
 fn test_img_returns_correct_html() {
-	assert el.img({ "": "" }) == "<img />"
+	assert el.img({}) == "<img />"
 }
 
 fn test_img_with_attributes_returns_correct_html() {

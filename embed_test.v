@@ -3,7 +3,7 @@ module test
 import el
 
 fn test_embed_returns_correct_html() {
-	assert el.embed({ "": "" }) == "<embed />"
+	assert el.embed({}) == "<embed />"
 }
 
 fn test_embed_with_attributes_returns_correct_html() {

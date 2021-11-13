@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Using [short struct initialization](https://github.com/vlang/v/blob/master/CHANGELOG.md#v-0127) on source code and documentation examples.
+
 ### Fixed
 
 - Fix "cannot initialize a struct with a map" errors when using one of the functions.

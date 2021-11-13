@@ -3,11 +3,11 @@ module test
 import el
 
 fn test_rtc_returns_correct_html() {
-	assert el.rtc({ "": "" }, []) == "<rtc></rtc>"
+	assert el.rtc({}, []) == "<rtc></rtc>"
 }
 
 fn test_rtc_with_children_returns_correct_html() {
-	assert el.rtc({ "": "" }, ["foo"]) == "<rtc>foo</rtc>"
+	assert el.rtc({}, ["foo"]) == "<rtc>foo</rtc>"
 }
 
 fn test_rtc_with_attributes_returns_correct_html() {
