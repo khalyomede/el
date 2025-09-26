@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Test (latest)
-        run: docker-compose run --rm v test .
+        run: docker compose run --rm v test .
 
   test_0_4_11:
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Test (0.4.11)
-        run: docker-compose run --rm v0411 test .
+        run: docker compose run --rm v0411 test .
 
   test_0_4_10:
     runs-on: ubuntu-latest
@@ -36,7 +36,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Test (0.4.10)
-        run: docker-compose run --rm v0410 test .
+        run: docker compose run --rm v0410 test .
 
   test_0_4_9:
     runs-on: ubuntu-latest
@@ -45,7 +45,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Test (0.4.9)
-        run: docker-compose run --rm v049 test .
+        run: docker compose run --rm v049 test .
 
   test_0_4_8:
     runs-on: ubuntu-latest
@@ -54,4 +54,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Test (0.4.8)
-        run: docker-compose run --rm v048 test .
+        run: docker compose run --rm v048 test .
