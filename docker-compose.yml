@@ -1,8 +1,36 @@
 version: "3"
 services:
   v:
-    build: ./docker/v
+    image: khalyomede/vlang:latest-alpine
     entrypoint: v
+    working_dir: /root/app
     volumes:
-      - .:/home/alpine
-    working_dir: /home/alpine
+      - .:/root/app
+
+  v0411:
+    image: khalyomede/vlang:0.4.11-alpine
+    entrypoint: v
+    working_dir: /root/app
+    volumes:
+      - .:/root/app
+
+  v0410:
+    image: khalyomede/vlang:0.4.10-alpine
+    entrypoint: v
+    working_dir: /root/app
+    volumes:
+      - .:/root/app
+
+  v049:
+    image: khalyomede/vlang:0.4.9-alpine
+    entrypoint: v
+    working_dir: /root/app
+    volumes:
+      - .:/root/app
+
+  v048:
+    image: khalyomede/vlang:0.4.8-alpine
+    entrypoint: v
+    working_dir: /root/app
+    volumes:
+      - .:/root/app
