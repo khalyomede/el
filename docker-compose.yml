@@ -7,6 +7,13 @@ services:
     volumes:
       - .:/root/app
 
+  v0412:
+    image: khalyomede/vlang:0.4.12-alpine
+    entrypoint: v
+    working_dir: /root/app
+    volumes:
+      - .:/root/app
+
   v0411:
     image: khalyomede/vlang:0.4.11-alpine
     entrypoint: v
