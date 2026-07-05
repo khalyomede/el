@@ -2,7 +2,7 @@ module el
 
 pub fn anon(parameters Parameters) string {
 	name := parameters.name
-	mut html := '<$name'
+	mut html := '<${name}'
 
 	for key, value in parameters.attributes {
 		if key == "" {
@@ -12,7 +12,7 @@ pub fn anon(parameters Parameters) string {
 		escaped_key := key.replace('"', "")
 		escaped_value := value.replace('"', '\\"')
 
-		html += ' $escaped_key="$escaped_value"'
+		html += ' ${escaped_key}="${escaped_value}"'
 	}
 
 	if parameters.self_closing {
@@ -25,5 +25,5 @@ pub fn anon(parameters Parameters) string {
 		html += child
 	}
 
-	return html + '</$name>'
+	return html + '</${name}>'
 }

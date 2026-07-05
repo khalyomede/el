@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Using [short struct initialization](https://github.com/vlang/v/blob/master/CHANGELOG.md#v-0127) on source code and documentation examples.
+- Support for V 0.5.1.
 
 ### Fixed
 
