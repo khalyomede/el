@@ -7,8 +7,15 @@ services:
     volumes:
       - .:/root/app
 
+  v051:
+    image: khalyomede/vlang:0.5.1-alpine
+    entrypoint: v
+    working_dir: /root/app
+    volumes:
+      - .:/root/app
+
   v050:
-    image: khalyomede/vlang:latest-alpine
+    image: khalyomede/vlang:0.5.0-alpine
     entrypoint: v
     working_dir: /root/app
     volumes:

@@ -20,6 +20,15 @@ jobs:
       - name: Test (latest)
         run: docker compose run --rm v test .
 
+  test_0_5_1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Test (0.5.1)
+        run: docker compose run --rm v051 test .
+
   test_0_5_0:
     runs-on: ubuntu-latest
 
